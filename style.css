@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+body{
+    font-family: sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+}
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #777;
+    color: white;
+    padding: 15px 20px;
+}
+#nav a{
+    color: white;
+    margin-right: 15px;
+    text-decoration: none;
+    text-shadow: 2px 2px 4px yellow;
+}
+section{
+    margin: 40px 0;
+}
+h2{
+    margin-bottom: 15px;
+}
+h1{
+    text-shadow: 4px 4px 5px green;
+}
+ul{
+    list-style: none;
+}
+.projects{
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-top: 10px;
+}
+footer{
+    text-align: center;
+    margin-top: 50px;
+    color: #555;
+}

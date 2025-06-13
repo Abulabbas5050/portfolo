@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+    line-height: 1.8;
+    padding: 20px ;
+    background-image: url(./black.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: aliceblue;
+    font-size: 25px;
+}
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: darkgray;
+    padding: 20px;
+}
+h1{
+    color: darkslategrey;
+    text-shadow: 2px 2px 5px yellow;
+    text
+}
+#navs{
+    font-size: larger;
+    display: flex;
+    gap: 10px;
+}
+a{
+    color: darkred;
+    text-decoration: none;
+    text-shadow: 3px 5px 4px floralwhite;
+    padding-right: 20px;
+    font-size: 20px;
+}
+a:hover{
+    color: forestgreen;
+    text-decoration: underline;
+}
+section{
+    margin: 40px ;
+}
+h2{
+    color: blueviolet;
+    
+}
+p{
+    color: bisque;
+}
+#other{
+    width: 400px;
+    height: 90px;
+}
+#contact{
+    margin-top: 100px;
+}
+#profile{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.pic{
+    width: 150px;
+    height: 150px;
+    border-radius: 80%;
+    object-fit: cover;
+    border: 3px solid wheat;
+}
